@@ -1,0 +1,33 @@
+.feed_container {
+    margin-top: 5%;
+    margin-bottom: 35px;
+    width: 95%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.feed_container_header {
+    display: flex;
+    height: 100px;
+    font-family: logo_font;
+    font-size: 48px;
+    text-align: center;
+}
+
+.feed_container_content {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.feed_container_header p {
+    margin: 0;     
+}

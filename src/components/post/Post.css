@@ -1,0 +1,11 @@
+.modal-title {
+    margin-left: 30px;
+}
+
+.modal {
+    font-size: 20px;
+}
+
+.modal-img:hover {
+    cursor: zoom-in;
+}

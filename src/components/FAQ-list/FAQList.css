@@ -1,0 +1,11 @@
+li {
+    margin-bottom: 10px;
+}
+
+.FAQ-list-item {
+    color: black;
+}
+
+.FAQ-list-item:hover {
+    color:blue;
+}

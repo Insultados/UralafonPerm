@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@font-face {
+    font-family: logo_font;
+    src: url(../fonts/logo_font.ttf);
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #F5FFFA;
+    min-height: 100%;
+}
+
+.App {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-container {
+    display: flex;
+    height: 5000px;
+}
+
+.main-container-left {
+    margin-top: 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main-container-right {
+    margin-top: 30px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#root {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: black;
+}
+
+h3 {
+    text-align: center;
+}
+
+.video_wrap {
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    min-height: 500px;
+    max-height: 500px;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex: 1 0 auto;
+    border-color: rgb(215, 215, 215);
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-width: 2px;
+    width: 60%;
+    min-height: 700px;
+    padding-bottom: 65px;
+}
+
+.donations_img_block {
+    display: flex;
+    margin: 0 auto;
+}
+
+#instagram_logo {
+    height: 48px;
+    width: 48px;
+}
+
+
+.office_text_block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.page_content {
+
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    top: 50px;
+    max-width: 865px;
+}
+
+.mr-auto {
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.responsive-navbar-nav {
+    background-color: rgb(56, 56, 56);
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-toggler {
+    margin: 10px auto;
+    width: 60px;
+    align-self: center;
+}
+
+.navbar-toggler:hover {
+    background-color: rgb(66, 66, 66);
+
+}
+
+
+.mr-auto {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.office_img_block1 {
+    box-sizing: border-box;
+}
+
+#office_img1,
+#office_img2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 500px;
+}
+
+#inform_img {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 800px;
+}
+
+
+#office_img2,
+.donations_img_block2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+
+#office_img2,
+.donations_img_block2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.dropdown-menu[aria-labelledby=ddown] {
+    background-color: rgb(56, 56, 56);
+    width: 220px;
+    border: none;
+}
+
+:target h3 {
+    background-color: #abc8f8;
+}
+
+.__react_modal_image__header {
+    text-align: start;
+}
+
+
+
+
+
+/* Медиа-запросы (Адаптивность сайта под различные устройства) */
+
+@media (max-width: 2100px) {
+
+    #office_img1,
+    #office_img2,
+    #inform_img {
+        width: 450px;
+    }
+
+
+    #donations_img1 {
+        width: 600px;
+    }
+
+}
+
+@media (max-width: 1600px) {
+
+    #office_img1,
+    #office_img2,
+    #inform_img {
+        width: 450px;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+
+    #office_img1,
+    #office_img2 {
+        width: 450px;
+    }
+
+    .header_img {
+        display: none;
+    }
+
+    #donations_img1 {
+        width: 500px;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+
+    #office_img1,
+    #office_img2,
+    #inform_img {
+        width: 600px;
+    }
+
+
+    #donations_img1 {
+        width: 350px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .main-container-right {
+        display: none;
+    }
+
+    .main-container-left {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    footer {
+        text-align: center;
+    }
+
+    #office_img1,
+    #office_img2,
+    #inform_img {
+        width: 300px;
+    }
+
+    #donations_img1 {
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #office_img1,
+    #office_img2,
+    #inform_img,
+    #donations_img2,
+    #donations_img1 {
+        width: 250px;
+    }
+
+
+}
+
+
+@media (max-width: 370px) {
+
+    header {
+        font-size: 15px;
+    }
+
+
+    #office_img1,
+    #office_img2,
+    #inform_img,
+    #donations_img2,
+    #donations_img1 {
+        width: 150px;
+    }
+
+}
