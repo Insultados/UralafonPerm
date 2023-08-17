@@ -24,7 +24,7 @@ const FeedContainer = () => {
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
 
-    const url = "https://uralafonperm.ru/api/"
+    const url = "https://www.uralafonperm.ru/api/"
 
     try {
         useEffect(() => {

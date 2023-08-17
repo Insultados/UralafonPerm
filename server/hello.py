@@ -40,6 +40,12 @@ def get_wall_img(posts, post_num):
     return post_img_url
 
 
+def get_board_posts(group_name):
+    url = f'https://api.vk.com/method/board.getComments?group_id={group_name}&topic_id=49342158&&count40&access_token={token}&v=5.84'
+    request = requests.get(url)
+    return request.json()
+
+
 @application.route('/api/', methods=['GET', 'OPTIONS'])
 @cross_origin(supports_credentials=True)
 def get():
@@ -48,6 +54,13 @@ def get():
     post_list_text = [get_wall_text(posts, i) for i in range(post_count)]
     post_list_img = [get_wall_img(posts, i) for i in range(post_count)]
     return jsonify({'posts': post_list_text, 'img': post_list_img})
+
+
+@application.route('/api/schedule/', methods=['GET', 'OPTIONS'])
+@cross_origin(supports_credentials=True)
+def getSchedule():
+    posts = get_board_posts(195494027)
+    return jsonify({'board': posts['response']['items'][0]['text']})
 
 
 if __name__ == "__main__":
