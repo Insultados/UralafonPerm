@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.43580d0e.css",
-    "main.js": "/static/js/main.059fe28c.js",
+    "main.css": "/static/css/main.1293b741.css",
+    "main.js": "/static/js/main.4683901c.js",
     "static/media/video.mp4": "/static/media/video.4115af8227d2df8ecef4.mp4",
     "static/media/inform_img.png": "/static/media/inform_img.3b11c53e8ed073fe4b73.png",
     "static/media/office_img2.jpg": "/static/media/office_img2.2aefa13d62fbb126315e.jpg",
@@ -10,12 +10,12 @@
     "static/media/person.jpg": "/static/media/person.b38b9d86a5f8ab9a6772.jpg",
     "static/media/qrcode.png": "/static/media/qrcode.262651f467645e7a2742.png",
     "index.html": "/index.html",
-    "static/media/vk_logo.svg": "/static/media/vk_logo.d170476266ce091d43fca5de4ea991be.svg",
-    "main.43580d0e.css.map": "/static/css/main.43580d0e.css.map",
-    "main.059fe28c.js.map": "/static/js/main.059fe28c.js.map"
+    "static/media/vk_logo.svg": "/static/media/vk_logo.e0c50628b076461e3bc7553b6179f70b.svg",
+    "main.1293b741.css.map": "/static/css/main.1293b741.css.map",
+    "main.4683901c.js.map": "/static/js/main.4683901c.js.map"
   },
   "entrypoints": [
-    "static/css/main.43580d0e.css",
-    "static/js/main.059fe28c.js"
+    "static/css/main.1293b741.css",
+    "static/js/main.4683901c.js"
   ]
 }
