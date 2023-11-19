@@ -16,7 +16,7 @@ const Office = () => {
                                 <br />Варлаама Белогорского. <br /><b>Адрес:</b> ул.Пермская 36 <br /></p>
                         </div>
                         <div id="page_window_text4" className={classes.page_window_text}>
-                            <p><br /><b>График работы:</b> <br /><b>Пн:</b> 9:00 - 17:00 <br /><b>Вт:</b> 9:00 - 17:00 <br /><b>Ср:</b> 9:00 -
+                            <p><br /><b>График работы часовни:</b> <br /><b>Пн:</b> 9:00 - 17:00 <br /><b>Вт:</b> 9:00 - 17:00 <br /><b>Ср:</b> 9:00 -
                                 17:00 <br /><b>Чт:</b> 9:00 - 17:00 <br /><b>Пт:</b> 9:00 - 17:00 <br /><b>Сб:</b> Выходной <br /><b>Вс:</b>
                                 Выходной <br /><br /></p>
                             <div className={classes.office_img_block1}>
